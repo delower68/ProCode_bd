@@ -1,8 +1,18 @@
-
-
 /* universal css  */
 *{
     margin: 0px;
     padding: 0px;
     font-family: 'Poppins', sans-serif;
+}
+/* slider  */
+.carousel-item::before{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    background: #000;
+    opacity: 0.5;
 }
